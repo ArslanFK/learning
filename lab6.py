@@ -46,7 +46,7 @@ def transliterate(text):
 
     dic = { chr(ru):translate for ru, translate in zip( \
         list(range(1072, 1078)) + [1105] + list(range(1078, 1104)), translate.split()) }
-        
+
     dic.update({ chr(ru):translate for ru, translate in zip( \
         list(range(1040, 1046)) + [1025] + list(range(1046, 1072)), translate.title().split()) })
 
@@ -57,5 +57,5 @@ def transliterate(text):
         else:
             new_text += char
     return new_text
- 
+
 print(transliterate(text))
