@@ -24,7 +24,7 @@ print(third_tuple.count(0))
 # Задача 2.2
 
 m_tuple = (7, (4.56, (5 + 7j, ("abc", ()))))
-print(m_tuple[1][1][1][0])
+print(m_tuple[1][0])
 
 # Задача 2.3
 result = 0
