@@ -1,6 +1,6 @@
 # Лабораторная работа №2
 '''
-Andas Arslan
+Arslan
 '''
 name = input('Введите имя: ')
 print('Привет, ' + name + '!')
